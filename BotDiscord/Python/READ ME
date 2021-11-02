@@ -1,0 +1,14 @@
+Utilizando Commands, para cada função eu passo para comando o parâmentro 'ctx'
+ctx é um obejeto que contem funcoes built-in
+    ctx.send() #manda mensagem no mesmo servidor que foi chamada a função
+    ctx.author #retorna o autor da mensagem
+    ctx.autor.mention # menciona o autor
+    ctx.author.id #retorna o id do autor
+    ctx.message #vc pode utilizar funcoes na mensagem do usuario ex: add_reaction()
+
+Outras funcoes:
+    msg.add_reaction('emooji') #adiociona emooji na propria mensagem do bot
+
+Ex.:
+@client.command()
+async def funcao(ctx)
