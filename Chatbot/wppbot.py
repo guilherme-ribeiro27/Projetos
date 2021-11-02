@@ -11,11 +11,7 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(15)
 #Definir contatos e grupos
 contatos = ['Wesley']
-mensagem = ['*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*',
-'*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*',
-'*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*',
-'*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*',
-'*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*','*eu mamo o Wesley*',]
+mensagem = []
 #Buscar contatos ou grupos
 def buscar_contato(contato):
     campo_pesquisa = driver.find_element_by_xpath('//div[contains(@class,"copyable-text selectable-text")]')
